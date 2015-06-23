@@ -1,4 +1,4 @@
-#MageMash_Shelscripts
+#MageMash_Shellscripts
 
 
 ##Description
