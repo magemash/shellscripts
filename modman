@@ -1,2 +1,2 @@
 shell/config.php.dist               shell/config.php.dist
-shell/updateconfig                  shell/updateconfig.php
+shell/updateconfig.php                  shell/updateconfig.php
