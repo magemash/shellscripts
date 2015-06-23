@@ -1,2 +1,3 @@
 shell/config.php.dist               shell/config.php.dist
 shell/updateconfig.php                  shell/updateconfig.php
+shell/imagecleanup.php                  shell/imagecleanup.php
