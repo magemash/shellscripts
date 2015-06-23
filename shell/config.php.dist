@@ -1,0 +1,19 @@
+<?php
+
+// default scope
+$config = array(
+    'default' => array(
+        'web/unsecure/base_url' => 'http://local.dev/',
+        'web/secure/base_url' => 'http://local.dev/',
+    ),
+    'websites' => array(
+        '1' => array(
+        ),
+    ),
+    'stores' => array(
+        '1' => array(
+        ),
+    )
+);
+
+
