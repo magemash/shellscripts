@@ -1,20 +1,23 @@
 <?php
 
+$url = "local.getdev";
+$email = "scott@getcommerce.com";
+
 // default scope
 $config = array(
     'default' => array(
-        'web/unsecure/base_url' => 'http://local.getdev/',
-        'web/secure/base_url' => 'http://local.getdev/',
-        'web/cookie/cookie_domain' => 'www.local.getdev',
+        'web/unsecure/base_url' => 'http://'.$url.'/',
+        'web/secure/base_url' => 'http://'.$url.'/',
+        'web/cookie/cookie_domain' => 'www.'.$url,
         'design/head/demonotice' => 0,
         'design/head/default_robots' => 'NOINDEX,NOFOLLOW',
         'google/analytics/active' => 0,
-        'trans_email/ident_general/email' => 'scott@getcommerce.com',
-        'trans_email/ident_sales/email' => 'scott@getcommerce.com',
-        'trans_email/ident_support/email' => 'scott@getcommerce.com',
-        'trans_email/ident_custom1/email' => 'scott@getcommerce.com',
-        'trans_email/ident_custom2/email' => 'scott@getcommerce.com',
-        'contacts/email/recipient_email' => 'scott@getcommerce.com',
+        'trans_email/ident_general/email' => $email,
+        'trans_email/ident_sales/email' => $email,
+        'trans_email/ident_support/email' => $email,
+        'trans_email/ident_custom1/email' => $email,
+        'trans_email/ident_custom2/email' => $email,
+        'contacts/email/recipient_email' => $email,
         'web/secure/use_in_adminhtml' => 0,
         'dev/js/merge_files' => 0,
         'dev/css/merge_files' => 0,
