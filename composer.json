@@ -7,7 +7,7 @@
   "require": {
       "php": ">=5.3",
       "magento-hackathon/magento-composer-installer": "*",
-      "symfony/yaml": "dev-master"
+      "symfony/yaml": "v2.7.4"
   },
   "authors": [
     {
