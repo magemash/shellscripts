@@ -1,19 +1,39 @@
 <?php
 
+$url = "local.getdev";
+$email = "scott@getcommerce.com";
+
 // default scope
 $config = array(
     'default' => array(
-        'web/unsecure/base_url' => 'http://local.dev/',
-        'web/secure/base_url' => 'http://local.dev/',
+        'web/unsecure/base_url' => 'http://'.$url.'/',
+        'web/secure/base_url' => 'http://'.$url.'/',
+        'web/cookie/cookie_domain' => 'www.'.$url,
+        'design/head/demonotice' => 0,
+        'design/head/default_robots' => 'NOINDEX,NOFOLLOW',
+        'google/analytics/active' => 0,
+        'trans_email/ident_general/email' => $email,
+        'trans_email/ident_sales/email' => $email,
+        'trans_email/ident_support/email' => $email,
+        'trans_email/ident_custom1/email' => $email,
+        'trans_email/ident_custom2/email' => $email,
+        'contacts/email/recipient_email' => $email,
+        'web/secure/use_in_adminhtml' => 0,
+        'dev/js/merge_files' => 0,
+        'dev/css/merge_files' => 0,
+        'payment/cashondelivery/active' => 1,
+        'payment/sagepaysuite/license_key' => '',
+        'payment/sagepaysuite/logs' => '',
+        'payment/sagepayserver/mode' => 'test',
+        'dev/log/active' => 1,
+        'dev/log/file' => 'system.log',
+        'dev/log/exception_file' => 'exception.log',
     ),
     'websites' => array(
-        '1' => array(
+        '2' => array(
         ),
     ),
     'stores' => array(
-        '1' => array(
-        ),
-    )
+    ),
 );
-
 
