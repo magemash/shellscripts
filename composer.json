@@ -5,8 +5,9 @@
   "description": "various shell scripts for Magento",
   "homepage": "https://github.com/magemash/shellscripts",
   "require": {
-    "php": ">=5.3",
-    "magento-hackathon/magento-composer-installer": "*"
+      "php": ">=5.3",
+      "magento-hackathon/magento-composer-installer": "*",
+      "symfony/yaml": "dev-master"
   },
   "authors": [
     {

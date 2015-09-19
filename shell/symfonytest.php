@@ -8,4 +8,8 @@ use MagentoCommand\Command\HelloworldCommand;
 $console = new Application();
 $console->add(new HelloworldCommand());
 
+// add all commands
+
+
+
 $console->run();
