@@ -3,4 +3,3 @@ shell/updateconfig.php                  shell/updateconfig.php
 shell/imagecleanup.php                  shell/imagecleanup.php
 shell/importer                      shell/importer
 shell/datafixer                     shell/datafixer
-shell/symfonytest.php                  shell/symfonytest.php
